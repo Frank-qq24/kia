@@ -3,10 +3,10 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Amita", serif;
   margin: 0;
-  background: linear-gradient(to right, #ffffff, #ddafe0); /* Cambia los colores según tus preferencias */
-  background-size: 200% 100%;
+  background: radial-gradient(circle, #eba2a4, #e6d1ca, #ffffff);/* Cambia los colores según tus preferencias */
+  background-size: 400% 400%;
   animation: gradientAnimation 5s ease infinite;
 }
 @keyframes gradientAnimation {
@@ -110,6 +110,7 @@ body {
 
 .idea-5 span, .idea-6 span, .wish-hbd span {
   display: inline-block;
+  white-space: pre-wrap;
 }
 
 .idea-6 span{
@@ -313,6 +314,7 @@ body {
   }
 }
 footer {
+  font-family: "Amita", serif;
   position: fixed;
   bottom: 0;
   left: 0;
